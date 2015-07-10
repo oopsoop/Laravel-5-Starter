@@ -19,7 +19,7 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 ##已实现功能
 
-1.框架
+1.框架搭建   具体步骤参考   tutorial/step-1-init.sh
 
 ##Todo:
 
