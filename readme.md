@@ -36,5 +36,6 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 > remember token
 
+4.使用blade引擎搭建页面框架-layout
 
 
