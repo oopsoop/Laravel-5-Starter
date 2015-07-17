@@ -13,6 +13,10 @@ Laravel 5 with many useful components configured
 
 2.laravel环境变量设置和初始化 tutorial/step-2-project-configure.sh
 
+3.使用blade引擎搭建页面框架-layout
+
+4.多语言配置
+
 ##Todo:
 
 1.验证码
@@ -28,6 +32,6 @@ Laravel 5 with many useful components configured
 
 > remember token
 
-4.使用blade引擎搭建页面框架-layout
+
 
 
