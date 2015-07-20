@@ -6,7 +6,7 @@ use App\User;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
-
+use Illuminate\Http\Request;
 class AuthController extends Controller
 {
     /*
@@ -61,4 +61,35 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+
+    public function getLogin(Request $request){
+        $user=$request->user();
+        $data=array(
+            'currentUser' => $user,
+            //'captchaurl' => Captcha::src(),
+        );
+        return view('auth/login')->with($data);
+    }
+
+
+    public function getEmailExists(Request $request){
+        $email= $request->get('email');
+        $user=User::where('email',$email)->First();
+
+        if($user){
+            if(!$user->activated){
+                $expired=strtotime(date("yesterday"))-strtotime($user->created_at);
+                if($expired>0){
+                    //过期未激活，删除账号
+                    $user->delete();
+                    return response()->json(['exists' => false]);
+                }
+            }
+            return response()->json(['exists' => true ]);
+        }else{
+            return response()->json(['exists' => false]);
+        }
+    }
+    
+
 }

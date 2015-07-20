@@ -27,10 +27,7 @@
                 </li>
 
                 <li class="">
-                  <a href="/setup/faq/general" lang="title">how to setup</a>
-                </li>
-                <li class="">
-                  <a href="/announcement" lang="title">announcement</a>
+                  <a href="/home" lang="title">wakahka</a>
                 </li>
                 <li class="">
                   <a href="/contact" lang="title">contact us</a>

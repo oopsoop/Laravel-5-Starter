@@ -19,7 +19,7 @@
   setlocale=function(locale){
     $.ajax({
       type:'post',
-      url:'setlocale',
+      url:'/setlocale',
       cache:false,
       data:{locale:locale},
       headers:{
