@@ -1,4 +1,4 @@
-## Laravel Starter With Many Common Components And Tutorials In Detail
+## Laravel Starter With Community Packages And  Tutorial‘s In Detail
 
 Laravel 5 with many useful components configured
 
