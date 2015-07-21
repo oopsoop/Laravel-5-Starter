@@ -1,4 +1,9 @@
+
+
+
 ## Laravel Starter With Community Packages And  Tutorial‘s In Detail
+
+#(UNDER DEVELOPMENT)
 
 Laravel 5 with many useful components configured
 
