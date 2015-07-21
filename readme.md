@@ -28,9 +28,19 @@ Laravel 5 with many useful components configured
 
 ##Todo:
 
-1.验证码
+1.验证码 ，mews/captcha
 
 2.paypal 接口
+
+3.predis/predis
+ 
+4 liaol/socialite-cn
+ 
+5.maatwebsite/excel
+ 
+6. firebase/php-jwt
+ 
+7.lokielse/omnipay-alipay
 
 
 
