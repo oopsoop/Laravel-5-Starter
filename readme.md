@@ -17,13 +17,7 @@ Laravel 5 with many useful components configured
 
 4.多语言配置
 
-##Todo:
-
-1.验证码
-
-2.paypal 接口
-
-3.Auth
+5.Auth
 > login
 
 > register
@@ -31,6 +25,14 @@ Laravel 5 with many useful components configured
 > reset password
 
 > remember token
+
+##Todo:
+
+1.验证码
+
+2.paypal 接口
+
+
 
 
 
