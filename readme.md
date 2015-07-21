@@ -38,7 +38,7 @@ Laravel 5 with many useful components configured
  
 5.maatwebsite/excel
  
-6. firebase/php-jwt
+6.firebase/php-jwt
  
 7.lokielse/omnipay-alipay
 
