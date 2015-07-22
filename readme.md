@@ -37,17 +37,17 @@ Laravel 5 with many useful components configured
 
 
 
-2.paypal 接口
+1.paypal 接口
 
-3.predis/predis
+2.predis/predis
  
-4 liaol/socialite-cn
+3. liaol/socialite-cn
  
-5.maatwebsite/excel
+4.maatwebsite/excel
  
-6.firebase/php-jwt
+5.firebase/php-jwt
  
-7.lokielse/omnipay-alipay
+6.lokielse/omnipay-alipay
 
 
 
