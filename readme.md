@@ -31,9 +31,11 @@ Laravel 5 with many useful components configured
 
 > remember token
 
+6.验证码 Use [mews/captcha](https://github.com/mewebstudio/captcha.git)
+
 ##Todo:
 
-1.验证码 ，mews/captcha
+
 
 2.paypal 接口
 

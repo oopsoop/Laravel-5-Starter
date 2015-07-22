@@ -144,6 +144,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /*
+          3rd party providers...
+        */
+        Mews\Captcha\CaptchaServiceProvider::class,
     ],
 
     /*
@@ -192,6 +197,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
 
+        /*3rd party alias*/
+        'Captcha' => Mews\Captcha\Facades\Captcha::class,
     ],
 
 ];
