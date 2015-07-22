@@ -41,7 +41,7 @@ Laravel 5 with many useful components configured
 
 2.predis/predis
  
-3. liaol/socialite-cn
+3.liaol/socialite-cn
  
 4.maatwebsite/excel
  
