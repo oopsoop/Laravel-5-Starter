@@ -8,4 +8,3 @@
 
 #How To Configure 
 
-#Author:
