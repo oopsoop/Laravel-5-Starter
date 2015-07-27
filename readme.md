@@ -49,7 +49,7 @@ Laravel 5 with many useful components configured
  
 6.lokielse/omnipay-alipay
 
-
+7.overtrue/wechat 微信接口
 
 
 
