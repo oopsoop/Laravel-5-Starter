@@ -51,6 +51,6 @@ Laravel 5 with many useful components configured
 
 7.overtrue/wechat 微信接口
 
-
+8.laravel-debugbar 调试插件
 
 

@@ -23,11 +23,11 @@
                   <a href="/home" lang="title">{{trans('header.home')}}</a>
                 </li>
                 <li class="">
-                  <a href="/order" lang="title">{{trans('header.order')}}</a>
+                  <a href="/home" lang="title">{{trans('header.order')}}</a>
                 </li>
 
                 <li class="">
-                  <a href="/home" lang="title">wakahka</a>
+                  <a href="/announcement" lang="title">分页示例</a>
                 </li>
                 <li class="">
                   <a href="/contact" lang="title">contact us</a>

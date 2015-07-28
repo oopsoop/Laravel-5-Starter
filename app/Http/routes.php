@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('welcome');
+});
+
 Route::post('setlocale','HomeController@setlocale');
 
 
@@ -35,6 +39,8 @@ Route::controllers([
     'password' => 'Auth\PasswordController',
 ]);
 
+//通知功能，用于演示分页
+Route::resource('announcement','AnnouncementController');
 
 ///Captcha
 Route::any('captcha', function()
