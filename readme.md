@@ -33,6 +33,8 @@ Laravel 5 with many useful components configured
 
 6.验证码 Use [mews/captcha](https://github.com/mewebstudio/captcha.git)
 
+7.内置分页DEMO
+
 ##Todo:
 
 
