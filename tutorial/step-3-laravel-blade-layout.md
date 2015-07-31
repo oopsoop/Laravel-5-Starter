@@ -1,4 +1,4 @@
-# Laravel blade引擎搭建页面框架
+#Laravel内置blade引擎搭建页面框架
 
 ##配置
 
