@@ -18,7 +18,7 @@
     apt-get install memcached
 ```
 
-###4.In your Controller [Demo](app\Http\Controllers\CacheController.php):
+###4.In your Controller [Demo](app/Http/Controllers/CacheController.php):
 ```js
 class CacheController extends Controller
 {
