@@ -30,7 +30,7 @@
                   <a href="/announcement" lang="title">分页示例</a>
                 </li>
                 <li class="">
-                  <a href="/contact" lang="title">contact us</a>
+                  <a href="/cache" lang="title">缓存实例</a>
                 </li>
 
                 @if(isset($currentUser))

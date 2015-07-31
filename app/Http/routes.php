@@ -21,6 +21,7 @@ Route::get('/home', function () {
 
 Route::post('setlocale','HomeController@setlocale');
 
+Route::resource('cache','CacheController');
 
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
