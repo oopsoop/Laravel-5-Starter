@@ -35,6 +35,7 @@ Laravel 5 with many useful components configured
 
 7.内置分页DEMO
 
+8.缓存配置，Cache Configuration ;使用memcached **[参考](http://laravel.com/docs/5.1/cache)**
 ##Todo:
 
 
