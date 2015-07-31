@@ -1,35 +1,33 @@
-#Title: Configure Laravel Cache Driver with Memcached
+#Laravel内置Cache配置Memcached
 
-#Description：
+配置Laravel内置Cache框架，配置memcached作为数据存储服务器
 
-#配置Laravel缓存使用memcached服务器
+##配置
 
-#Dependencies：
+###1.安装php扩展 ***php5-memcached***
 
+```bash
+    apt-get install php5-memcached
 ```
-   php5-memcached
-```
-
-#Configure
-
-##1.install php5-memcached 
-
-> apt-get install php5-memcached
-
-##2. in **.env** 环境变量文件配置
-
-> CACHE_DRIVER=memcached
-
-##3. install memcached-server
-
-> apt-get install memcached
-
-#Usage:
-
-##In your Controller:
+###2. **.env** 环境变量文件配置
 ```php
-    
+    CACHE_DRIVER=memcached
+```
+###3. install memcached-server
+```
+    apt-get install memcached
+```
+
+###4.In your Controller:
+```php
+
 
 ```
 
-#Author By : [followtheart](https://github.com/followtheart)
+##依赖
+    php5-memcached
+    laravel/installer=~1.1
+
+<br/>
+
+##欢迎反馈 [followtheart](https://github.com/followtheart)

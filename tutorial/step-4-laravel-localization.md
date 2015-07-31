@@ -1,10 +1,10 @@
-#Title: Laravel 多语言配置 
+# Laravel 多语言配置
 
-#Description：使用Session配置Laravel内置的多语言支持
+##配置
+
+###1.
+###2.
 
 
-#Dependencies：
-#Laravel-frame
-
-#How To Configure 
-
+##依赖
+    1.Laravel-frame

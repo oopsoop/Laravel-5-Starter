@@ -1,13 +1,13 @@
-#Title
+#Laravel-5-Starter 教程模板
 
-#Description
+##配置
+
+###1.
+###2.
 
 
-#Dependencies
+##依赖
+    1.Laravel-frame
 
 
-#Configure 
-
-#Usage
-
-#Author: Configure
+#Author: followtheart
