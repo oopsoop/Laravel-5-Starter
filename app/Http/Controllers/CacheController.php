@@ -17,15 +17,14 @@ class CacheController extends Controller
      */
     public function index()
     {
-        //
-        if(!Cache::has('cachetest')){
-            Cache::put('cachetest','cache test of Laravel-5-Start',10);
+        if(!Cache::has('cachetest')){///check exists?
+          //set
+          Cache::put('cachetest','cache test of Laravel-5-Start',10);
         }
 
         $data=array(
             'key' => 'cachetest',
-            'value' => Cache::get('cachetest'),
-            'message' => 'Hello'
+            'value' => Cache::get('cachetest')//get
         );
         Session::put('message','lello');
         return view('cache')->with($data);

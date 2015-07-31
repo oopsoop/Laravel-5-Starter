@@ -18,10 +18,30 @@
     apt-get install memcached
 ```
 
-###4.In your Controller:
-```php
+###4.In your Controller [Demo](app\Http\Controllers\CacheController.php):
+```js
+class CacheController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return Response
+     */
+    public function index()
+    {
+        if(!Cache::has('cachetest')){///check exists?
+          //set
+            Cache::put('cachetest','Cache Test of Laravel-5-Starter',10);
+        }
 
-
+        $data=array(
+            'key' => 'cachetest',
+            'value' => Cache::get('cachetest')//get
+        );
+        Session::put('message','Hello');
+        return view('cache')->with($data);
+    }
+}
 ```
 
 ##依赖
