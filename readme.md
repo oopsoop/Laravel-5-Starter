@@ -1,10 +1,12 @@
-
-
-
 ## Laravel Starter With Community Packages And  Tutorial In Detail
 
-#(UNDER DEVELOPMENT)
+# (UNDER DEVELOPMENT)
 
+##INSTALL
+```bash
+git clone https://github.com/followtheart/Laravel-5-Starter.git
+./install.sh
+```
 ##已实现功能
 
 ####0.环境配置  [Tutorial](tutorial/step-0-laravel-env.md)
