@@ -38,6 +38,20 @@ cd Laravel-5-Starter
 * [fullPage.js](https://github.com/alvarotrigo/fullPage.js.git)
 * [Animate.css](https://github.com/daneden/animate.css.git)
 
+## Screenshots:
+
+####Home
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/home.png)
+####Login
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/login.png)
+####Pagination
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/pagination.png)
+####Password Reset
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/reset.png)
+####Cache
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/z-cache.png)
+
+
 ##Todo:
 
 1.paypal 接口
