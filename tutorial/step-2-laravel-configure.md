@@ -23,5 +23,5 @@ chown -R www-data *
 ```
 ##6.运行
 ```shell
-php artisan serve --host localhost --port 81
+php artisan serve --host localhost
 ```

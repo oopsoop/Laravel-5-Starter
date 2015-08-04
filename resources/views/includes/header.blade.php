@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{asset('css/header.css')}}">
 <div class="header">
   <div class="nav-header">
     <div class="container">
@@ -57,7 +58,9 @@
                   </ul>
                 </li>
               </ul>
-            </div>
+            </div>     
+        <a class="register button" href="/auth/register">注册</a>
+        <a class="login button" href="/auth/login">登录</a>
           </div>
         </div>
       </div>

@@ -31,6 +31,12 @@ git clone https://github.com/followtheart/Laravel-5-Starter.git
 
 ####8.Laravel Cache配置memcached  [Tutorial](tutorial/step-8-laravel-cache-memcached.md)
 
+####9.Front End
+* [Bootstrap](https://github.com/twbs/bootstrap.git)
+* [Jquery](https://github.com/jquery/jquery.git)
+* [fullPage.js](https://github.com/alvarotrigo/fullPage.js.git)
+* [Animate.css](https://github.com/daneden/animate.css.git)
+
 ##Todo:
 
 1.paypal 接口
@@ -48,3 +54,9 @@ git clone https://github.com/followtheart/Laravel-5-Starter.git
 7.overtrue/wechat 微信接口
 
 8.laravel-debugbar 调试插件
+
+9.FrontEnd
+* [jquery-validation](https://github.com/jzaefferer/jquery-validation.git)
+* etc...
+
+10.More...

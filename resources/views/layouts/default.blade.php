@@ -20,4 +20,5 @@
     <div class="footer">@include('includes.footer')</div>
   </body>
   <script type="text/javascript" src="{{asset('js/header.js')}}"></script>
+  <script type="text/javascript" src="{{asset('js/footer.js')}}"></script>
 </html>
