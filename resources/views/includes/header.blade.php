@@ -10,7 +10,7 @@
                 <a href="/home"><img src="{{asset('images/about-icon-1.png')}}" /></a>
               </div>
               <div class="logo-title">
-                <p>UFVPN</p>
+                <p>LARAVEL</p>
               </div>
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#responsive-menu">
                 <span class="icon-bar"></span>

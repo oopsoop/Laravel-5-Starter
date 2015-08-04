@@ -26,7 +26,7 @@ class CacheController extends Controller
             'key' => 'cachetest',
             'value' => Cache::get('cachetest')//get
         );
-        Session::put('message','lello');
+        Session::put('message','This is a message in SESSION!');
         return view('cache')->with($data);
     }
 
