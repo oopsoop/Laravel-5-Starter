@@ -5,6 +5,7 @@
 ##INSTALL
 ```bash
 git clone https://github.com/followtheart/Laravel-5-Starter.git
+cd Laravel-5-Starter
 ./install.sh
 ```
 ##已实现功能
