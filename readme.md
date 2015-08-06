@@ -1,5 +1,7 @@
 ## Laravel Starter With Community Packages And  Tutorial In Detail
 
+[![Join the chat at https://gitter.im/followtheart/Laravel-5-Starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/followtheart/Laravel-5-Starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # (UNDER DEVELOPMENT)
 
 ##INSTALL
