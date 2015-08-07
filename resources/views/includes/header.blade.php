@@ -58,9 +58,13 @@
                   </ul>
                 </li>
               </ul>
-            </div>     
-        <a class="register button" href="/auth/register">注册</a>
-        <a class="login button" href="/auth/login">登录</a>
+            </div>
+            @if(isset($currentUser)&&$currentUser)
+            <a class="login button" href="/auth/logout">退出</a>
+            @else
+            <a class="register button" href="/auth/register">注册</a>
+            <a class="login button" href="/auth/login">登录</a>
+            @endif
           </div>
         </div>
       </div>

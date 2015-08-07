@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function(){
+    return redirect('home');
 });
-
-Route::get('/home', function () {
-    return view('welcome');
-});
+Route::get('home',array(
+    'as' => 'home',
+    'uses' => 'HomeController@index'
+));
 
 Route::post('setlocale','HomeController@setlocale');
 

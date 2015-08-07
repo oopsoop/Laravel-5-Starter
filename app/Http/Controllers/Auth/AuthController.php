@@ -62,13 +62,48 @@ class AuthController extends Controller
         ]);
     }
 
+    public function postRegister(Request $request){
+      ///验证用户输入数据
+      $postData = $request->all();
+      $email=$postData['email'];
+
+      $password=$postData['password'];
+      $user=$request->user();
+      $data=array(
+          'currentUser' => $user,
+      );
+      $validator = Validator::make($postData, [
+          'email' => 'required|email|max:255|unique:users',
+      ]);
+
+      if($validator->fails()) {
+          //array_add($data,'message','email已经被注册或者密码不符合规范');
+          return response()->json(array('message'=>'error'));
+      }
+
+      ///创建用户
+      $createUser = new User;
+      $createUser->email = $email;
+      $createUser->password= bcrypt($password);
+      //$createUser->key = bcrypt($email);
+      //$createUser->referrerkey= $referrerkey;
+      $createUser->save();
+      Auth::login($createUser);
+      $data=array(
+          'currentUser' => $createUser,
+          //'captchaurl' => Captcha::src(),
+          'message' => 'ok',
+      );
+      return view('auth.login')->with($data);
+    }
+
     public function getLogin(Request $request){
         $user=$request->user();
         $data=array(
             'currentUser' => $user,
             //'captchaurl' => Captcha::src(),
         );
-        return view('auth/login')->with($data);
+        return view('auth.login')->with($data);
     }
 
 
@@ -90,6 +125,4 @@ class AuthController extends Controller
             return response()->json(['exists' => false]);
         }
     }
-    
-
 }

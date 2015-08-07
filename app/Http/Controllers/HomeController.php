@@ -18,9 +18,15 @@ class HomeController extends Controller
      *
      * @return Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+      $user=$request->user();
+      $data=array(
+          'currentUser' => $user,
+          // 'captchaurl' => Captcha::src(),
+          // 'announcement'=> $announcement
+      );
+      return view('welcome')->with($data);
     }
 
     /**
