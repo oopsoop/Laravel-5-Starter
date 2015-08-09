@@ -8,7 +8,10 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "paypal/rest-api-sdk-php":"*",
-        "mews/captcha": "^2.0"
+        "mews/captcha": "^2.0",
+        "dingo/api": "0.10.*",
+        "tymon/jwt-auth": "0.5.*",
+        "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
