@@ -2,7 +2,7 @@ echo "一键自动安装脚本 One command installer"
 echo "Laravel 环境配置"
 
 echo "###0.安装php5,apache2"
-sudo apt-get install php5 php5-cli apache2 -y
+sudo apt-get install php5 php5-cli apache2 curl -y
 
 echo "###Install mysql"
 sudo apt-get install mysql-server php5-mysql -y
