@@ -149,6 +149,10 @@ return [
           3rd party providers...
         */
         Mews\Captcha\CaptchaServiceProvider::class,
+        Dingo\Api\Provider\LaravelServiceProvider::class,
+        LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
+        LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
+        // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
     ],
 
     /*
@@ -199,6 +203,9 @@ return [
 
         /*3rd party alias*/
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
+        'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
+        // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
+        // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
     ],
 
 ];

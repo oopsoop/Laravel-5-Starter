@@ -65,3 +65,12 @@ Route::any('captcha', function()
     $form .= '</form>';
     return $form;
 });
+
+
+// API  Route
+$api = app('api.router');
+$api->version('v1', ['middleware' => 'api.auth'],function ($api) {
+    $api->get('home','App\Http\Controllers\AnnouncementController@index');
+    $api->post('auth/register', 'App\Http\Controllers\Auth\AuthController@postRegister');
+    $api->get('auth/login', 'App\Http\Controllers\Auth\AuthController@getLogin');
+});
