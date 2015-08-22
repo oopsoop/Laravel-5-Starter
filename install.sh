@@ -10,7 +10,7 @@ sudo apt-get install mysql-server php5-mysql -y
 
 echo "###1.安装[composer](https://github.com/composer/composer)"
 
-which composer > /dev/null 2>&1
+command -v composer > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "composer installed,skip to next step"
 else
@@ -20,7 +20,7 @@ fi
 
 echo "###2.Laravel 配置"
 
-which laravel > /dev/null 2>&1
+command -v laravel > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     echo "laravel installed,skip to next step"
 else
