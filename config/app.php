@@ -153,6 +153,9 @@ return [
         LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
         LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+
+        SleepingOwl\Admin\AdminServiceProvider::class,
+        Illuminate\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -206,6 +209,17 @@ return [
         'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
         // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
+
+        'Admin'             => SleepingOwl\Admin\Admin::class,
+        'AdminAuth'         => SleepingOwl\AdminAuth\Facades\AdminAuth::class,
+        'AdminRouter'       => SleepingOwl\Admin\Facades\AdminRouter::class,
+        'AssetManager'      => SleepingOwl\Admin\AssetManager\AssetManager::class,
+        'Column'            => SleepingOwl\Admin\Columns\Column::class,
+        'FormItem'          => SleepingOwl\Admin\Models\Form\FormItem::class,
+        'ModelItem'         => SleepingOwl\Admin\Models\ModelItem::class,
+
+        'Form'      => Illuminate\Html\FormFacade::class,
+        'Html'      => Illuminate\Html\HtmlFacade::class,
     ],
 
 ];

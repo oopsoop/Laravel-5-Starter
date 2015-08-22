@@ -16,9 +16,9 @@ class AnnouncementController extends Controller
      *
      * @return Response
      */
-    public function index(Request $request)
+    public function index()
     {
-        $user=$request->user();
+        $user=Request::user();
         $announcements=DB::table('announcements')->orderBy('created_at', 'desc')->simplePaginate(15);
         $data=array(
             'currentUser' => $user,
