@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "一键自动安装脚本 One command installer"
 echo "Laravel 环境配置"
 
