@@ -1,13 +1,14 @@
-#Laravel-5-Starter 教程模板
+#Laravel-5-Starter Tutorial for xxx
 
-##配置
+## Configuration
 
-###1.
-###2.
+### Step 1.
+### Step 2.
+
+## Usage
+
+## Requirements
+- [ Laravel-frame ](https://github.com/laravel/laravel.git)
 
 
-##依赖
-    1.Laravel-frame
-
-
-#Author: followtheart
+# Authored By  [followtheart](https://github.com/followtheart)
