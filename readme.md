@@ -14,16 +14,15 @@ cd Laravel-5-Starter
 ```
 
 
-## Laravel Feature  Demos
-
-  #### 0.Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
-  #### 1.Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
-  #### 2.Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
-  #### 3.Blade Template   [Tutorial]
+## Laravel Configurations:
+#### 0.Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
+#### 1.Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
+#### 2.Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
+#### 3.Blade Template   [Tutorial]
 <!-- (tutorial/step-3-laravel-blade-layout.md) -->
-  #### 4.Translation  [Tutorial]
+#### 4.Translation  [Tutorial]
 <!-- (tutorial/step-4-laravel-localization.md) -->
-  #### 5.Auth [Tutorial]
+#### 5.Auth [Tutorial]
 <!-- (tutorial/step-5-laravel-auth.md) -->
   *    login
   *    register
@@ -34,7 +33,7 @@ cd Laravel-5-Starter
 <!-- (tutorial/step-7-laravel-pagination.md) -->
 <!-- ### Laravel  Custom -->
 
-##  Third-party Packages
+##  Third-party Packages:
 #### 1.CAPTCHA using [mews/captcha](https://github.com/mewebstudio/captcha.git). [Tutorial]
 <!-- (tutorial/step-6-package-captcha.md) -->
 
@@ -49,7 +48,7 @@ cd Laravel-5-Starter
 * [Jquery](https://github.com/jquery/jquery.git)
 * [fullPage.js](https://github.com/alvarotrigo/fullPage.js.git)
 * [Animate.css](https://github.com/daneden/animate.css.git)
-* [Admin-LTE]()
+* [Admin-LTE](https://github.com/almasaeed2010/AdminLTE.git)
 * [sb-admin-2 template](http://startbootstrap.com/template-overviews/sb-admin-2/)
 * [Bootstrap Multiselect v0.9.8](https://github.com/davidstutz/bootstrap-multiselect)
 * [DataTables 1.10.7](http://www.datatables.net)
@@ -60,6 +59,7 @@ cd Laravel-5-Starter
 * [bootbox.js v4.3.0](http://bootboxjs.com)
 * [Bootstrap DatetimePicker 4.14.30-dev](http://eonasdan.github.io/bootstrap-datetimepicker/)
 * [CKEditor 4.5.0 Full](http://ckeditor.com)
+
 ## Screenshots:
 
 #### Home
@@ -90,12 +90,10 @@ cd Laravel-5-Starter
 
 7.overtrue/wechat
 
-8.laravel-debugbar
-
-9.FrontEnd
+8.FrontEnd
 * [jquery-validation](https://github.com/jzaefferer/jquery-validation.git)
 * etc...
 
-10.[Guzzle](https://github.com/guzzle/guzzle)
+9.[Guzzle](https://github.com/guzzle/guzzle)
 
-11.More...
+10.More...
