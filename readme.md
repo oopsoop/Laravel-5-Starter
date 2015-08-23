@@ -15,43 +15,51 @@ cd Laravel-5-Starter
 
 
 ## Laravel Feature  Demos
-#### Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
 
-#### Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
-
-#### Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
-
-#### Blade Template   [Tutorial]
+  #### 0.Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
+  #### 1.Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
+  #### 2.Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
+  #### 3.Blade Template   [Tutorial]
 <!-- (tutorial/step-3-laravel-blade-layout.md) -->
-#### Translation  [Tutorial]
+  #### 4.Translation  [Tutorial]
 <!-- (tutorial/step-4-laravel-localization.md) -->
-#### Auth [Tutorial]
+  #### 5.Auth [Tutorial]
 <!-- (tutorial/step-5-laravel-auth.md) -->
   *    login
   *    register
   *    reset password
   *    remember token
 
-#### Pagination DEMO [Tutorial]
+#### 6.Pagination DEMO [Tutorial]
 <!-- (tutorial/step-7-laravel-pagination.md) -->
-
+<!-- ### Laravel  Custom -->
 
 ##  Third-party Packages
-#### CAPTCHA using [mews/captcha](https://github.com/mewebstudio/captcha.git). [Tutorial]
+#### 1.CAPTCHA using [mews/captcha](https://github.com/mewebstudio/captcha.git). [Tutorial]
 <!-- (tutorial/step-6-package-captcha.md) -->
 
-#### Cache using memcached  [Tutorial](tutorial/step-8-laravel-cache-memcached.md)
+#### 2.Cache using memcached  [Tutorial](tutorial/step-8-laravel-cache-memcached.md)
 
-#### Debuger using [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar.git)
+#### 3.Debuger using [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar.git)
 
-#### Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git)
+#### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git)
 
-### Front End
+## Front End
 * [Bootstrap](https://github.com/twbs/bootstrap.git)
 * [Jquery](https://github.com/jquery/jquery.git)
 * [fullPage.js](https://github.com/alvarotrigo/fullPage.js.git)
 * [Animate.css](https://github.com/daneden/animate.css.git)
-
+* [Admin-LTE]()
+* [sb-admin-2 template](http://startbootstrap.com/template-overviews/sb-admin-2/)
+* [Bootstrap Multiselect v0.9.8](https://github.com/davidstutz/bootstrap-multiselect)
+* [DataTables 1.10.7](http://www.datatables.net)
+* [Lightbox 3.3.0 for Bootstrap 3](https://github.com/ashleydw/lightbox)
+* [Font Awesome 4.3.0](http://fontawesome.io)
+* [Metismenu 2.0.2](https://github.com/onokumus/metisMenu)
+* [morris.js v0.5.1](http://morrisjs.github.io/morris.js/)
+* [bootbox.js v4.3.0](http://bootboxjs.com)
+* [Bootstrap DatetimePicker 4.14.30-dev](http://eonasdan.github.io/bootstrap-datetimepicker/)
+* [CKEditor 4.5.0 Full](http://ckeditor.com)
 ## Screenshots:
 
 #### Home
