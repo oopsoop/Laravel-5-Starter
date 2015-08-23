@@ -41,7 +41,7 @@ cd Laravel-5-Starter
 
 #### 3.Debuger using [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar.git)   [Tutorial](tutorial/step-9-package-laravel-debugbar.md)
 
-#### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git)
+#### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git) [Tutorial](tutorial/step-10-package-admin.md)
 
 ## Front End
 * [Bootstrap](https://github.com/twbs/bootstrap.git)
