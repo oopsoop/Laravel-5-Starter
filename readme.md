@@ -15,16 +15,17 @@ cd Laravel-5-Starter
 
 
 ## Laravel Feature  Demos
+#### Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
 
+#### Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
 
-  #### Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
-  #### Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
-  #### Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
-  #### Blade Template   [Tutorial]
+#### Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
+
+#### Blade Template   [Tutorial]
 <!-- (tutorial/step-3-laravel-blade-layout.md) -->
-  #### Translation  [Tutorial]
+#### Translation  [Tutorial]
 <!-- (tutorial/step-4-laravel-localization.md) -->
-  #### Auth [Tutorial]
+#### Auth [Tutorial]
 <!-- (tutorial/step-5-laravel-auth.md) -->
   *    login
   *    register
@@ -33,7 +34,7 @@ cd Laravel-5-Starter
 
 #### Pagination DEMO [Tutorial]
 <!-- (tutorial/step-7-laravel-pagination.md) -->
-### Laravel  Custom
+
 
 ##  Third-party Packages
 #### CAPTCHA using [mews/captcha](https://github.com/mewebstudio/captcha.git). [Tutorial]
