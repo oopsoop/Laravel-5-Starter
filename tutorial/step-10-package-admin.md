@@ -4,7 +4,8 @@
 
 ### Step 1.Require  package in  composer.json and run `composer update`:(using dev-development branch)
 ```php
-    "sleeping-owl/admin": "dev-development#49a3a4ccd1b2a60fe7f05c1441be6bae7ff2cc27"
+    "sleeping-owl/admin": "dev-development#49a3a4ccd1b2a60fe7f05c1441be6bae7ff2cc27",
+    "sleeping-owl/admin-lte-template": "dev-master",
 ```
 
 ### Step 2. In `config/app.php` add the ServiceProvider to the providers array
