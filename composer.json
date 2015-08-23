@@ -12,7 +12,8 @@
         "dingo/api": "0.10.*",
         "tymon/jwt-auth": "0.5.*",
         "lucadegasperi/oauth2-server-laravel": "5.0.*@dev",
-        "sleeping-owl/admin": "2.*"
+        "sleeping-owl/admin": "dev-development#49a3a4ccd1b2a60fe7f05c1441be6bae7ff2cc27",
+        "sleeping-owl/admin-lte-template": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -15,6 +15,7 @@
  * 		});
  */
 
-Admin::menu()->url('/')->label('Start page')->icon('fa-dashboard')->uses('\SleepingOwl\Admin\Controllers\DummyController@getIndex');
-// Admin::menu()->url('user')->label('user page')->icon('fa-dashboard')->uses('\App\Http\Controllers\UserController@index');
-Admin::menu('\App\User::class')->icon('fa-user');
+Admin::menu()->url('/')->label('Start page')->icon('fa-dashboard');
+// Admin::menu()->url('/user')->label('user page')->icon('fa-dashboard')->uses('\App\Http\Controllers\UserController@index');
+// Admin::menu(App\User::class)->icon('fa-user')->url('users');
+Admin::menu(App\Announcement::class)->url('announcements');

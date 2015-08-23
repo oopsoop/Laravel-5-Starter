@@ -154,8 +154,14 @@ return [
         LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
+
+        /*
+         * SleepingOwl Admin generator
+         */
         SleepingOwl\Admin\AdminServiceProvider::class,
-        Illuminate\Html\HtmlServiceProvider::class,
+        SleepingOwl\AdminLteTemplate\AdminLteTemplateServiceProvider::class,
+
+        // Illuminate\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -210,16 +216,18 @@ return [
         // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
 
-        'Admin'             => SleepingOwl\Admin\Admin::class,
-        'AdminAuth'         => SleepingOwl\AdminAuth\Facades\AdminAuth::class,
-        'AdminRouter'       => SleepingOwl\Admin\Facades\AdminRouter::class,
-        'AssetManager'      => SleepingOwl\Admin\AssetManager\AssetManager::class,
-        'Column'            => SleepingOwl\Admin\Columns\Column::class,
-        'FormItem'          => SleepingOwl\Admin\Models\Form\FormItem::class,
-        'ModelItem'         => SleepingOwl\Admin\Models\ModelItem::class,
+        'Admin'         => SleepingOwl\Admin\Admin::class,
+        'AdminAuth'     => SleepingOwl\AdminAuth\Facades\AdminAuth::class,
+        'Column'        => SleepingOwl\Admin\Columns\Column::class,
+        'ColumnFilter'  => SleepingOwl\Admin\ColumnFilters\ColumnFilter::class,
+        'Filter'        => SleepingOwl\Admin\Filter\Filter::class,
+        'AdminDisplay'  => SleepingOwl\Admin\Display\AdminDisplay::class,
+        'AdminForm'     => SleepingOwl\Admin\Form\AdminForm::class,
+        'AdminTemplate' => SleepingOwl\Admin\Templates\Facade\AdminTemplate::class,
+        'FormItem'      => SleepingOwl\Admin\FormItems\FormItem::class,
 
-        'Form'      => Illuminate\Html\FormFacade::class,
-        'Html'      => Illuminate\Html\HtmlFacade::class,
+        // 'Form'      => Illuminate\Html\FormFacade::class,
+        // 'Html'      => Illuminate\Html\HtmlFacade::class,
     ],
 
 ];
