@@ -162,6 +162,9 @@ return [
         SleepingOwl\AdminLteTemplate\AdminLteTemplateServiceProvider::class,
 
         // Illuminate\Html\HtmlServiceProvider::class,
+
+        Barryvdh\Debugbar\ServiceProvider::class,
+
     ],
 
     /*
@@ -216,6 +219,7 @@ return [
         // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
 
+
         'Admin'         => SleepingOwl\Admin\Admin::class,
         'AdminAuth'     => SleepingOwl\AdminAuth\Facades\AdminAuth::class,
         'Column'        => SleepingOwl\Admin\Columns\Column::class,
@@ -228,6 +232,9 @@ return [
 
         // 'Form'      => Illuminate\Html\FormFacade::class,
         // 'Html'      => Illuminate\Html\HtmlFacade::class,
+
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
     ],
 
 ];
