@@ -43,6 +43,8 @@ cd Laravel-5-Starter
 
 #### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git) [Tutorial](tutorial/step-10-package-admin.md)
 
+#### 5.Api using [Dingo/Api](https://github.com/dingo/api.git)
+
 ## Front End
 * [Bootstrap](https://github.com/twbs/bootstrap.git)
 * [Jquery](https://github.com/jquery/jquery.git)
