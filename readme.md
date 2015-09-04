@@ -43,24 +43,14 @@ cd Laravel-5-Starter
 
 #### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git) [Tutorial](tutorial/step-10-package-admin.md)
 
-#### 5.Api using [Dingo/Api](https://github.com/dingo/api.git)
+#### 5.Api using [Dingo/Api](https://github.com/dingo/api.git)  [Tutorial](https://github.com/followtheart/Laravel-5-Starter/blob/master/tutorial/step-11-package-dingo-api.md)
 
 ## Front End
 * [Bootstrap](https://github.com/twbs/bootstrap.git)
 * [Jquery](https://github.com/jquery/jquery.git)
 * [fullPage.js](https://github.com/alvarotrigo/fullPage.js.git)
 * [Animate.css](https://github.com/daneden/animate.css.git)
-* [Admin-LTE](https://github.com/almasaeed2010/AdminLTE.git)
-* [sb-admin-2 template](http://startbootstrap.com/template-overviews/sb-admin-2/)
-* [Bootstrap Multiselect v0.9.8](https://github.com/davidstutz/bootstrap-multiselect)
-* [DataTables 1.10.7](http://www.datatables.net)
-* [Lightbox 3.3.0 for Bootstrap 3](https://github.com/ashleydw/lightbox)
-* [Font Awesome 4.3.0](http://fontawesome.io)
-* [Metismenu 2.0.2](https://github.com/onokumus/metisMenu)
-* [morris.js v0.5.1](http://morrisjs.github.io/morris.js/)
-* [bootbox.js v4.3.0](http://bootboxjs.com)
-* [Bootstrap DatetimePicker 4.14.30-dev](http://eonasdan.github.io/bootstrap-datetimepicker/)
-* [CKEditor 4.5.0 Full](http://ckeditor.com)
+
 
 ## Screenshots:
 
