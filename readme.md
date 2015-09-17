@@ -5,7 +5,7 @@
 
 ##公众号/手机网站开发 使用[mobile](https://github.com/followtheart/Laravel-5-Starter/tree/mobile) 分支
 
-# (UNDER DEVELOPMENT)
+### (UNDER DEVELOPMENT)
 
 
 ## INSTALL
