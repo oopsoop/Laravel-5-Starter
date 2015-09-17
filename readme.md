@@ -2,6 +2,9 @@
 
 [![Join the chat at https://gitter.im/followtheart/Laravel-5-Starter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/followtheart/Laravel-5-Starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=cef2c1c0b0217f1522dc753c3d395df725ada3578a77e09d8d7ad67e34fb66e8"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Laravel-5-Starter" title="Laravel-5-Starter"></a>群号:483541322
+
+##公众号/手机网站开发 使用[mobile](https://github.com/followtheart/Laravel-5-Starter/tree/mobile) 分支
+
 # (UNDER DEVELOPMENT)
 
 
