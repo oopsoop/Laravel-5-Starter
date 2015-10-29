@@ -2,14 +2,46 @@
 return [
     'home' => 'HOME',
     'order' => 'ORDER',
+    'setup'=>'SETUP',
+    'concept'=>'Concept',
+    'architecture'=>'Architecture',
+    'services'=>'Services',
+    'services.authentication'=>'authentication',
+    'services.authorization'=>'authorization',
+    'services.artisan'=>'artisan',
+    'services.bill'=>'bill',
+    'services.cache'=>'cache',
+    'services.collection'=>'collection',
+    'services.elixir'=>'elixir',
+    'services.encrypt'=>'encrypt',
+    'services.errlog'=>'errlog',
+    'services.events'=>'events',
+    'services.storage'=>'storage',
+    'services.hashing'=>'hashing',
+    'services.helper'=>'helper',
+    'services.localization'=>'localization',
+    'services.mail'=>'邮件',
+    'services.package'=>'扩展包开发',
+    'services.pagination'=>'分页',
+    'services.queue'=>'队列',
+    'services.redis'=>'redis',
+    'services.session'=>'会话',
+    'services.ssh'=>'',
+    'services.schedule'=>'计划任务',
+    'services.test'=>'测试',
+    'services.validate'=>'',
+
+    'database'=>'数据库',
+    'database.builder'=>'查询',
+    'database.migrate'=>'表定义与迁移',
+    'database.seed'=>'数据初始化',
+
+    'orm'=>'数据关系映射',
+    'orm.collection'=>'集合',
+    'orm.relation'=>'关系',
+    'orm.mutator'=>'mutator',
+    'orm.serial'=>'序列化',
+
+    '3rd'=>'第三方包',
+    '3rd.captcha'=>'',
 ];
-
-
-
-
-
-
-
-
-
-
