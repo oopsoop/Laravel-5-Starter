@@ -15,10 +15,23 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li ><a href="/home">{{trans('header.setup')}}</a></li>
-                    <li ><a href="/concept">{{trans('header.concept')}}</a></li>
-                    <li >
-                        <a href="/architecture">{{trans('header.architecture')}}</a>
+                    <li class="dropdown">
+                        <a href="/concept" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{trans('header.concept')}}
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">{{trans('header.concept.routing')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.middleware')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.controller')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.request')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.response')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.view')}}</a></li>
+                            <li><a href="#">{{trans('header.concept.blade')}}</a></li>
+                       </ul>
                     </li>
+                    <li ><a href="/tutorial">{{trans('header.tutorial')}}</a></li>
+                    <li ><a href="/architecture">{{trans('header.architecture')}}</a></li>
                     <li class="dropdown">
                         <a href="/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             {{trans('header.services')}}
@@ -49,17 +62,19 @@
                             <li><a href="#">{{trans('header.services')}}</a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="dropdown">
                         <a href="/database" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >
                             {{trans('header.database')}}
                             <span class="caret" ></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a></a></li>
+                            <li><a>{{trans('header.database.builder')}}</a></li>
+                            <li><a>{{trans('header.database.migrate')}}</a></li>
+                            <li><a>{{trans('header.database.seed')}}</a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="dropdown">
                         <a href="/orm" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" >
                             {{trans('header.orm')}}
@@ -72,8 +87,15 @@
                             <li><a>{{trans('header.orm.serial')}}</a></li>
                         </ul>
                     </li>
-                    <li >
-                        <a href="/cache">{{trans('header.3rd')}}</a>
+                    <li class="dropdown">
+                        <a href="/cache" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                {{trans('header.3rd')}}
+                            <span class="caret" ></span>
+                         </a>
+                    <ul class="dropdown-menu" role="menu">
+                    <li ><a href="/cache">{{trans('header.3rd.admin')}}</a></li>
+                    <li ><a href="/cache">{{trans('header.3rd.captcha')}}</a></li>
+                        </ul>
                     </li>
                     @if(isset($currentUser))
                         <li >

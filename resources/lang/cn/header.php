@@ -3,7 +3,16 @@ return [
     'home' => '首页',
     'order' => '测试',
     'setup'=>'安装',
-    'concept'=>'概念',
+    'concept'=>'基础概念',
+    'concept.routing'=>'Routing',
+    'concept.middleware'=>'Middleware',
+    'concept.controller'=>'Controller',
+    'concept.request'=>'Request',
+    'concept.response'=>'Response',
+    'concept.view'=>'View',
+    'concept.blade'=>'Blade Template',
+
+    'tutorial'=>'教程',
     'architecture'=>'体系结构',
     'services'=>'服务',
     'services.authentication'=>'登陆认证',
@@ -43,5 +52,6 @@ return [
     'orm.serial'=>'序列化',
 
     '3rd'=>'第三方包',
-    '3rd.captcha'=>'',
+    '3rd.captcha'=>'验证码',
+    '3rd.admin'=>'管理后台',
 ];
