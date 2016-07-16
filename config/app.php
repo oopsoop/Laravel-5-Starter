@@ -113,13 +113,13 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
+        //        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
         Illuminate\Auth\AuthServiceProvider::class,
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
         Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
-        Illuminate\Routing\ControllerServiceProvider::class,
+        //Illuminate\Routing\ControllerServiceProvider::class,
         Illuminate\Cookie\CookieServiceProvider::class,
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Encryption\EncryptionServiceProvider::class,
@@ -158,10 +158,8 @@ return [
         /*
          * SleepingOwl Admin generator
          */
-        SleepingOwl\Admin\AdminServiceProvider::class,
-        SleepingOwl\AdminLteTemplate\AdminLteTemplateServiceProvider::class,
+	SleepingOwl\Admin\Providers\SleepingOwlServiceProvider::class,
 
-        // Illuminate\Html\HtmlServiceProvider::class,
 
         Barryvdh\Debugbar\ServiceProvider::class,
 
@@ -215,24 +213,10 @@ return [
 
         /*3rd party alias*/
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
-        'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
+        //'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
         // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
-
-
-        'Admin'         => SleepingOwl\Admin\Admin::class,
-        'AdminAuth'     => SleepingOwl\AdminAuth\Facades\AdminAuth::class,
-        'Column'        => SleepingOwl\Admin\Columns\Column::class,
-        'ColumnFilter'  => SleepingOwl\Admin\ColumnFilters\ColumnFilter::class,
-        'Filter'        => SleepingOwl\Admin\Filter\Filter::class,
-        'AdminDisplay'  => SleepingOwl\Admin\Display\AdminDisplay::class,
-        'AdminForm'     => SleepingOwl\Admin\Form\AdminForm::class,
-        'AdminTemplate' => SleepingOwl\Admin\Templates\Facade\AdminTemplate::class,
-        'FormItem'      => SleepingOwl\Admin\FormItems\FormItem::class,
-
-        // 'Form'      => Illuminate\Html\FormFacade::class,
-        // 'Html'      => Illuminate\Html\HtmlFacade::class,
-
+//	'Admin'   =>Lar
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],

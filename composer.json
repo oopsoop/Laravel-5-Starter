@@ -6,22 +6,22 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
-        "paypal/rest-api-sdk-php":"*",
-        "mews/captcha": "^2.0",
-        "dingo/api": "0.10.*",
-        "tymon/jwt-auth": "0.5.*",
-        "lucadegasperi/oauth2-server-laravel": "5.0.*@dev",
-        "sleeping-owl/admin": "dev-development#49a3a4ccd1b2a60fe7f05c1441be6bae7ff2cc27",
-        "sleeping-owl/admin-lte-template": "dev-master",
-        "barryvdh/laravel-debugbar": "^2.0"
-
+        "laravel/framework": "5.2.*",
+        "paypal/rest-api-sdk-php":"~1.7",
+        "mews/captcha": "~2.1",
+        "dingo/api": "1.0.*@dev",
+        "tymon/jwt-auth": "1.0.*@dev",
+        "lucadegasperi/oauth2-server-laravel": "5.1.*",
+	"laravelrus/sleepingowl": "4.*@dev",
+        "barryvdh/laravel-debugbar": "~2.2.2"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4",
+        "fzaninotto/faker": "~1.6",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
-        "phpspec/phpspec": "~2.1"
+        "phpspec/phpspec": "~2.1",
+      "symfony/dom-crawler":"~3.0",
+      "symfony/css-selector":"~3.0"
     },
     "autoload": {
         "classmap": [
@@ -41,10 +41,9 @@
             "php artisan clear-compiled",
             "php artisan optimize"
         ],
-        "pre-update-cmd": [
-            "php artisan clear-compiled"
-        ],
+        "pre-update-cmd": [],
         "post-update-cmd": [
+            "php artisan clear-compiled",
             "php artisan optimize"
         ],
         "post-root-package-install": [
