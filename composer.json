@@ -12,8 +12,7 @@
         "dingo/api": "1.0.*@dev",
         "tymon/jwt-auth": "1.0.*@dev",
         "lucadegasperi/oauth2-server-laravel": "5.1.*",
-	"laravelrus/sleepingowl": "4.*@dev",
-        "barryvdh/laravel-debugbar": "~2.2.2"
+      "barryvdh/laravel-debugbar": "~2.2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.6",
