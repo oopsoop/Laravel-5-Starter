@@ -155,11 +155,6 @@ return [
         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
 
-        /*
-         * SleepingOwl Admin generator
-         */
-	SleepingOwl\Admin\Providers\SleepingOwlServiceProvider::class,
-
 
         Barryvdh\Debugbar\ServiceProvider::class,
 
@@ -216,7 +211,7 @@ return [
         //'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
         // 'JWTAuth'   => Tymon\JWTAuth\Facades\JWTAuth::class,
         // 'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class
-//	'Admin'   =>Lar
+
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
 
     ],
