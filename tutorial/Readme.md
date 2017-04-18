@@ -1,6 +1,6 @@
 本目录记录项目的配置过程，每个过程都用一个脚本记录
 
-##脚本命名:
+## 脚本命名:
 step-步骤编号-laravel/package/custom-功能名称.md
 
  >第三部分: ***laravel/package/custom***
@@ -13,7 +13,7 @@ step-步骤编号-laravel/package/custom-功能名称.md
 
 
 
-##可根据本目录的教程,重现本项目
+## 可根据本目录的教程,重现本项目
 
 0.step-0-laravel-env.md   laravel环境配置
 
