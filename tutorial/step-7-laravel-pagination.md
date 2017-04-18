@@ -1,11 +1,11 @@
-#Title: Laravel 内置分页配置
+# Title: Laravel 内置分页配置
 
-#Description：配置Laravel内置的分页，展示分页的使用
-
-
-#Dependencies：
+# Description：配置Laravel内置的分页，展示分页的使用
 
 
-#How To Configure 
+# Dependencies：
 
-#Author: **followtheart**
+
+# How To Configure 
+
+# Author: **followtheart**

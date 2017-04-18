@@ -1,12 +1,12 @@
-#Title:
+# Title:
 
-#Description：
+# Description：
 Laravel Captcha use [mews/captcha](https://github.com/mewebstudio/captcha.git)
 
-#Dependencies：
+# Dependencies：
     php5-gd
 
 
-#How To Configure
+# How To Configure
 
-#Author:
+# Author:

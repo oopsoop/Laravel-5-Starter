@@ -1,4 +1,4 @@
-#Laravel-5-Starter Tutorial for Package dingo/api
+# Laravel-5-Starter Tutorial for Package dingo/api
 
 ## Configuration
 
