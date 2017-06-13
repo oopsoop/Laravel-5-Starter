@@ -34,8 +34,8 @@
 	               	</div>
 	            </div>
 				<div class="main-login main-center">
-                          <form class="form-horizontal" method="POST" action="/auth/login">
-
+                          <form class="form-horizontal" method="POST" action="/login">
+                           <input type="hidden" name="_token" value="{{csrf_token()}}">
 						<div class="form-group">
 							<label for="email" class="cols-sm-2 control-label">Your Email</label>
 							<div class="cols-sm-10">
@@ -75,7 +75,7 @@
 							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Login</button>
 						</div>
 						<div class="login-register">
-				           <a href="/auth/register">Register</a>
+				           <a href="/register">Register</a>
 				         </div>
                         <div class="login-register">
                            <a href="/auth/register">Forget Password</a>

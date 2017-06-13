@@ -1,4 +1,4 @@
-<!-- resources/views/auth/login.blade.php -->
+<!-- resources/views/auth/register.blade.php -->
 @extends('layouts.default')
     @section('style')
     @parent
@@ -31,8 +31,9 @@
 	               	</div>
 	            </div>
 				<div class="main-login main-center">
-                          <form class="form-horizontal" method="POST" action="/auth/register">
-						<div class="form-group">
+             <form class="form-horizontal" method="POST" action="/register">
+                           <input type="hidden" name="_token" value="{{csrf_token()}}">
+						                  <div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Your Name</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
@@ -86,7 +87,7 @@
 							<button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>
 						</div>
 						<div class="login-register">
-				            <a href="/auth/login">Login</a>
+				            <a href="/login">Login</a>
 				         </div>
 					</form>
 				</div>

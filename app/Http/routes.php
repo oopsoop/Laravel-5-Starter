@@ -24,21 +24,18 @@ Route::post('setlocale','HomeController@setlocale');
 Route::resource('cache','CacheController');
 
 // Authentication routes...
-Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
-Route::get('auth/emailexists','Auth\AuthController@getEmailExists');
-Route::get('auth/activate','Auth\AuthController@getActivate');
+//Route::get('auth/login', 'Auth\AuthController@getLogin');
+//Route::post('auth/login', 'Auth\AuthController@postLogin');
+//Route::get('auth/logout', 'Auth\AuthController@getLogout');
+//Route::get('auth/emailexists','Auth\AuthController@getEmailExists');
+//Route::get('auth/activate','Auth\AuthController@getActivate');
 // Registration routes...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-Route::post('auth/register', 'Auth\AuthController@postRegister');
-Route::post('auth/changepwd','UserController@update');
+//Route::get('auth/register', 'Auth\AuthController@getRegister');
+//Route::post('auth/register', 'Auth\AuthController@postRegister');
+//Route::post('auth/changepwd','UserController@update');
 
-///OD密码管理路由
-Route::controllers([
-    //'auth' => 'Auth\AuthController',
-    'password' => 'Auth\PasswordController',
-]);
+
+
 
 //通知功能，用于演示分页
 Route::resource('announcement','AnnouncementController');

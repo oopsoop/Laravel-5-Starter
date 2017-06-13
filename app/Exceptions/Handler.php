@@ -3,6 +3,11 @@
 namespace App\Exceptions;
 
 use Exception;
+
+
+use Illuminate\Validation\ValidationException;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
@@ -14,7 +19,12 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-        HttpException::class,
+	AuthorizationException::class,
+	HttpException::class,
+    	ModelNotFoundException::class,
+    	ValidationException::class,
+
+
     ];
 
     /**
@@ -41,4 +51,19 @@ class Handler extends ExceptionHandler
     {
         return parent::render($request, $e);
     }
+/**
+ * Convert an authentication exception into an unauthenticated response.
+ *
+ * @param  \Illuminate\Http\Request  $request
+ * @param  \Illuminate\Auth\AuthenticationException  $exception
+ * @return \Illuminate\Http\Response
+ */
+protected function unauthenticated($request, AuthenticationException $exception)
+{
+    if ($request->expectsJson()) {
+        return response()->json(['error' => 'Unauthenticated.'], 401);
+    }
+
+    return redirect()->guest('login');
+}
 }

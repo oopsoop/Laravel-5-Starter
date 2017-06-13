@@ -122,11 +122,11 @@
                     </li>
                     <li>
                         @if(isset($currentUser)&&$currentUser)
-                            <a class="login button" href="/auth/logout">退出</a>
+                            <a class="login button" href="/logout">退出</a>
                         @else
-                            <a class="register button" href="/auth/register">注册</a>
+                            <a class="register button" href="/register">注册</a>
                     </li><li>
-                        <a class="login button" href="/auth/login">登录</a>
+                        <a class="login button" href="/login">登录</a>
                         @endif
                     </li>
                 </ul>

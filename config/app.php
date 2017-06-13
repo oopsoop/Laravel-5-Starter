@@ -136,22 +136,22 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+	Illuminate\Notifications\NotificationServiceProvider::class,
         /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
-
+	App\Providers\AuthServiceProvider::class,
+	App\Providers\BroadcastServiceProvider::class,
         /*
           3rd party providers...
         */
         Mews\Captcha\CaptchaServiceProvider::class,
         Dingo\Api\Provider\LaravelServiceProvider::class,
-        LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
-        LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
+        //        LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
+        //        LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
 
@@ -206,7 +206,8 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+	'Gate'      => Illuminate\Support\Facades\Gate::class,
+	'Notification' => Illuminate\Support\Facades\Notification::class,
         /*3rd party alias*/
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
         //'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
