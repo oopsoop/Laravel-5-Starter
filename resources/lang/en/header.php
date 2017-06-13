@@ -40,7 +40,7 @@ return [
     'services.test'=>'Testing',
     'services.validate'=>'Validate',
 
-    'database'=>'数据库',
+    'database'=>'database',
     'database.builder'=>'Query builder',
     'database.migrate'=>'Migration',
     'database.seed'=>'Seeding',
@@ -51,10 +51,10 @@ return [
     'orm.mutator'=>'mutator',
     'orm.serial'=>'serial',
 
-    '3rd'=>'第三方包',
+    '3rd'=>'3rd-party package',
     '3rd.captcha'=>'验证码',
     '3rd.admin'=>'管理后台',
-
+    '3rd.forum'=>'forum',
 
     'tutorial'=>'Tutorial',
     ''=>'',

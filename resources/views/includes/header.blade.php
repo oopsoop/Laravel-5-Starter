@@ -95,7 +95,8 @@
                     <ul class="dropdown-menu" role="menu">
                     <li ><a href="/cache">{{trans('header.3rd.admin')}}</a></li>
                     <li ><a href="/cache">{{trans('header.3rd.captcha')}}</a></li>
-                        </ul>
+                    <li ><a href="/forums">{{trans('header.3rd.forum')}}</a></li>
+</ul>
                     </li>
                     @if(isset($currentUser))
                         <li >

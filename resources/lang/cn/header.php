@@ -54,4 +54,5 @@ return [
     '3rd'=>'第三方包',
     '3rd.captcha'=>'验证码',
     '3rd.admin'=>'管理后台',
+    '3rd.forum'=>'论坛模块',
 ];
