@@ -158,6 +158,7 @@ return [
 
         Barryvdh\Debugbar\ServiceProvider::class,
 
+	DevDojo\Chatter\ChatterServiceProvider::class,
     ],
 
     /*
