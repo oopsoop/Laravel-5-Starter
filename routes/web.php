@@ -39,3 +39,13 @@ $form .= '<p><button type="submit" name="check">Check</button></p>';
 $form .= '</form>';
 return $form;
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

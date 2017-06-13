@@ -150,6 +150,7 @@ return [
         */
         Mews\Captcha\CaptchaServiceProvider::class,
         Dingo\Api\Provider\LaravelServiceProvider::class,
+
         //        LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
         //        LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
         // Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
@@ -159,6 +160,8 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
 
 	DevDojo\Chatter\ChatterServiceProvider::class,
+
+	TCG\Voyager\VoyagerServiceProvider::class,
     ],
 
     /*

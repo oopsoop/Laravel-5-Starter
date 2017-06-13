@@ -93,7 +93,7 @@
                             <span class="caret" ></span>
                          </a>
                     <ul class="dropdown-menu" role="menu">
-                    <li ><a href="/cache">{{trans('header.3rd.admin')}}</a></li>
+                    <li ><a href="/admin">{{trans('header.3rd.admin')}}</a></li>
                     <li ><a href="/cache">{{trans('header.3rd.captcha')}}</a></li>
                     <li ><a href="/forums">{{trans('header.3rd.forum')}}</a></li>
 </ul>
