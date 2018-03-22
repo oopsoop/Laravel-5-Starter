@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8528934c4baa3fc3ade0d3c9ea2c8c",
+    "content-hash": "9687ca00295cb3c2375bc25186697373",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -440,16 +440,16 @@
         },
         {
             "name": "dingo/api",
-            "version": "dev-master",
+            "version": "v2.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dingo/api.git",
-                "reference": "46cffad61942caa094dd876155e503b6819c5095"
+                "reference": "8beb74dd307770c909f0474e26a1004099ac78bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/dingo/api/46cffad61942caa094dd876155e503b6819c5095.zip",
-                "reference": "46cffad61942caa094dd876155e503b6819c5095",
+                "url": "https://files.phpcomposer.com/files/dingo/api/8beb74dd307770c909f0474e26a1004099ac78bd.zip",
+                "reference": "8beb74dd307770c909f0474e26a1004099ac78bd",
                 "shasum": ""
             },
             "require": {
@@ -460,6 +460,7 @@
                 "php": "^7.0"
             },
             "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2",
                 "illuminate/auth": "^5.1",
                 "illuminate/cache": "^5.1",
                 "illuminate/console": "^5.1",
@@ -468,21 +469,27 @@
                 "illuminate/filesystem": "^5.1",
                 "illuminate/log": "^5.1",
                 "illuminate/pagination": "^5.1",
-                "laravel/lumen-framework": "5.1.* || 5.2.*",
-                "lucadegasperi/oauth2-server-laravel": "5.0.*",
+                "laravel/lumen-framework": "^5.1",
                 "mockery/mockery": "~0.9",
                 "phpunit/phpunit": "^4.8 || ^5.0",
                 "squizlabs/php_codesniffer": "~2.0",
                 "tymon/jwt-auth": "1.0.*"
             },
             "suggest": {
-                "lucadegasperi/oauth2-server-laravel": "Protect your API with OAuth 2.0.",
                 "tymon/jwt-auth": "Protect your API with JSON Web Tokens."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "2.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Dingo\\Api\\Provider\\LaravelServiceProvider"
+                    ],
+                    "aliases": {
+                        "API": "Dingo\\Api\\Facade\\API"
+                    }
                 }
             },
             "autoload": {
@@ -510,7 +517,7 @@
                 "laravel",
                 "restful"
             ],
-            "time": "2017-02-10T00:56:04+00:00"
+            "time": "2017-09-20T15:57:14+00:00"
         },
         {
             "name": "dingo/blueprint",
@@ -5985,7 +5992,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "dingo/api": 20,
+        "dingo/api": 15,
         "tymon/jwt-auth": 20
     },
     "prefer-stable": false,

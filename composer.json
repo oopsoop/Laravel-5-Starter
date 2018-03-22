@@ -9,7 +9,7 @@
         "laravel/framework": "5.5.*",
         "paypal/rest-api-sdk-php":"~1.7",
         "mews/captcha": "~2.1",
-        "dingo/api": "1.0.*@dev",
+        "dingo/api": "2.0.0-alpha1",
         "tymon/jwt-auth": "1.0.*@dev",
 	"barryvdh/laravel-debugbar": "~3.0",
         "devdojo/chatter": "0.2.*",
