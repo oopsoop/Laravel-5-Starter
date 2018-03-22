@@ -159,7 +159,7 @@ return [
 
         Barryvdh\Debugbar\ServiceProvider::class,
 
-	DevDojo\Chatter\ChatterServiceProvider::class,
+	//DevDojo\Chatter\ChatterServiceProvider::class,
 
 	TCG\Voyager\VoyagerServiceProvider::class,
     ],
