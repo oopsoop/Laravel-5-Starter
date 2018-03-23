@@ -30,4 +30,13 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+       public function getLogin(Request $request){
+        $user=$request->user();
+        $data=array(
+            'currentUser' => $user,
+            //'captchaurl' => Captcha::src(),
+        );
+        return view('auth.login')->with($data);
+    }
+
 }

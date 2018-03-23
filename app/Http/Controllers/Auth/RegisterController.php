@@ -68,4 +68,56 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+    public function postRegister(Request $request){
+      ///验证用户输入数据
+      $postData = $request->all();
+      $email=$postData['email'];
+
+      $password=$postData['password'];
+      $user=$request->user();
+      $data=array(
+          'currentUser' => $user,
+      );
+      $validator = Validator::make($postData, [
+          'email' => 'required|email|max:255|unique:users',
+      ]);
+
+      if($validator->fails()) {
+          //array_add($data,'message','email已经被注册或者密码不符合规范');
+          return response()->json(array('message'=>'error'));
+      }
+
+      ///创建用户
+      $createUser = new User;
+      $createUser->email = $email;
+      $createUser->password= bcrypt($password);
+      //$createUser->key = bcrypt($email);
+      //$createUser->referrerkey= $referrerkey;
+      $createUser->save();
+      Auth::login($createUser);
+      $data=array(
+          'currentUser' => $createUser,
+          //'captchaurl' => Captcha::src(),
+          'message' => 'ok',
+      );
+      return view('auth.login')->with($data);
+    }
+    public function getEmailExists(Request $request){
+        $email= $request->get('email');
+        $user=User::where('email',$email)->First();
+
+        if($user){
+            if(!$user->activated){
+                $expired=strtotime(date("yesterday"))-strtotime($user->created_at);
+                if($expired>0){
+                    //过期未激活，删除账号
+                    $user->delete();
+                    return response()->json(['exists' => false]);
+                }
+            }
+            return response()->json(['exists' => true ]);
+        }else{
+            return response()->json(['exists' => false]);
+        }
+    }
 }
