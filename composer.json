@@ -22,7 +22,8 @@
         "phpspec/phpspec": "~2.1",
       	"symfony/dom-crawler":"~3.1",
       	"symfony/css-selector":"~3.1",
-	"filp/whoops":"~2.0"
+	"filp/whoops":"~2.0",
+        "laravel/dusk": "^2.0"
     },
     "autoload": {
         "classmap": [
@@ -33,9 +34,9 @@
         }
     },
     "autoload-dev": {
-        "classmap": [
-            "tests/TestCase.php"
-        ]
+   	"psr-4": {
+        	"Tests\\": "tests/"
+   	}
     },
     "scripts": {
         "post-install-cmd": [
