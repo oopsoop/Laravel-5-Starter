@@ -2,6 +2,8 @@
 namespace App\Http\Middleware;
 use Closure;
 use App;
+use Session;
+use Config;
 class LocaleMiddleware
 {
     /**
@@ -13,7 +15,11 @@ class LocaleMiddleware
      */
     public function handle($request, Closure $next)
     {
-        App::setLocale(session('locale'));
+        if (Session::has('locale') AND in_array(Session::get('locale'), Config::get('app.locales'))){
+            App::setLocale(Session::get('locale'));
+        }else{
+            App::setLocale(Config::get('app.fallback_locale'));
+        }
         return $next($request);
     }
 }

@@ -10,8 +10,11 @@ use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     public function setlocale(Request $request){
-        session(['locale' => $request->input('locale')]);
-        return session('locale');
+        $locale=$request->input('locale');
+        if (in_array($locale, config('app.locales'))) {
+            session(['locale' => $locale]);
+        }
+        return back()->withInput();
     }
     /**
      * Display a listing of the resource.
@@ -20,13 +23,13 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-      $user=$request->user();
-      $data=array(
-          'currentUser' => $user,
-          // 'captchaurl' => Captcha::src(),
-          // 'announcement'=> $announcement
-      );
-      return view('welcome')->with($data);
+        $user=$request->user();
+        $data=array(
+            'currentUser' => $user,
+            // 'captchaurl' => Captcha::src(),
+            // 'announcement'=> $announcement
+        );
+        return view('welcome')->with($data);
     }
 
     /**
