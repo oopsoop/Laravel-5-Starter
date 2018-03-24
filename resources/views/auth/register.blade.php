@@ -31,7 +31,7 @@
 	               	</div>
 	            </div>
 				<div class="main-login main-center">
-             <form class="form-horizontal" method="POST" action="/register">
+             <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                            <input type="hidden" name="_token" value="{{csrf_token()}}">
 						                  <div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Your Name</label>
@@ -78,7 +78,7 @@
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+									<input type="password" class="form-control" name="password_confirmation" id="password_confirm"  placeholder="Confirm your Password"/>
 								</div>
 							</div>
 						</div>
