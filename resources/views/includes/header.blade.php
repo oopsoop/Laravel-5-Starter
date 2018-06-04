@@ -28,7 +28,7 @@
                             <li><a href="#">{{trans('header.concept.response')}}</a></li>
                             <li><a href="#">{{trans('header.concept.view')}}</a></li>
                             <li><a href="#">{{trans('header.concept.blade')}}</a></li>
-                       </ul>
+                        </ul>
                     </li>
                     <li ><a href="/tutorial">{{trans('header.tutorial')}}</a></li>
                     <li ><a href="/architecture">{{trans('header.architecture')}}</a></li>
@@ -89,14 +89,14 @@
                     </li>
                     <li class="dropdown">
                         <a href="/cache" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{trans('header.3rd')}}
+                            {{trans('header.3rd')}}
                             <span class="caret" ></span>
-                         </a>
-                    <ul class="dropdown-menu" role="menu">
-                    <li ><a href="/admin">{{trans('header.3rd.admin')}}</a></li>
-                    <li ><a href="/cache">{{trans('header.3rd.captcha')}}</a></li>
-                    <li ><a href="/forums">{{trans('header.3rd.forum')}}</a></li>
-</ul>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li ><a href="/admin">{{trans('header.3rd.admin')}}</a></li>
+                            <li ><a href="/cache">{{trans('header.3rd.captcha')}}</a></li>
+                            <li ><a href="/forums">{{trans('header.3rd.forum')}}</a></li>
+                        </ul>
                     </li>
                     @if(isset($currentUser))
                         <li >
@@ -123,11 +123,12 @@
                     </li>
                     <li>
                         @if(isset($currentUser)&&$currentUser)
-                            <a class="login button" href="/logout">退出</a>
+                            <a class="login button" href="{{ route('logout') }}">退出</a>
                         @else
-                            <a class="register button" href="/register">注册</a>
-                    </li><li>
-                        <a class="login button" href="/login">登录</a>
+                            <a class="register button" href="{{ route('register') }}">注册</a>
+                    </li>
+                    <li>
+                        <a class="login button" href="{{ route('login') }}">登录</a>
                         @endif
                     </li>
                 </ul>

@@ -14,40 +14,40 @@
 ```bash
 git clone https://github.com/followtheart/Laravel-5-Starter.git
 cd Laravel-5-Starter
-./install.sh
+./doc/install.sh
 ```
 
 
-## Laravel Configurations:
-#### 0.Laravel Enviroment  [Tutorial](tutorial/step-0-laravel-env.md)
-#### 1.Framework generate  [Tutorial](tutorial/step-1-laravel-generate.md)
-#### 2.Configuration   [Tutorial](tutorial/step-2-laravel-configure.md)
+## Laravel Configurations
+#### 0.Laravel Enviroment  [Tutorial](doc/tutorial/step-0-laravel-env.md)
+#### 1.Framework generate  [Tutorial](doc/tutorial/step-1-laravel-generate.md)
+#### 2.Configuration   [Tutorial](doc/tutorial/step-2-laravel-configure.md)
 #### 3.Blade Template   [Tutorial]
-<!-- (tutorial/step-3-laravel-blade-layout.md) -->
+<!-- (doc/tutorial/step-3-laravel-blade-layout.md) -->
 #### 4.Translation  [Tutorial]
-<!-- (tutorial/step-4-laravel-localization.md) -->
+<!-- (doc/tutorial/step-4-laravel-localization.md) -->
 #### 5.Auth [Tutorial]
-<!-- (tutorial/step-5-laravel-auth.md) -->
+<!-- (doc/tutorial/step-5-laravel-auth.md) -->
   *    login
   *    register
   *    reset password
   *    remember token
 
 #### 6.Pagination DEMO [Tutorial]
-<!-- (tutorial/step-7-laravel-pagination.md) -->
+<!-- (doc/tutorial/step-7-laravel-pagination.md) -->
 <!-- ### Laravel  Custom -->
 
 ##  Third-party Packages:
 #### 1.CAPTCHA using [mews/captcha](https://github.com/mewebstudio/captcha.git). [Tutorial]
-<!-- (tutorial/step-6-package-captcha.md) -->
+<!-- (doc/tutorial/step-6-package-captcha.md) -->
 
-#### 2.Cache using memcached  [Tutorial](tutorial/step-8-laravel-cache-memcached.md)
+#### 2.Cache using memcached  [Tutorial](doc/tutorial/step-8-laravel-cache-memcached.md)
 
-#### 3.Debuger using [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar.git)   [Tutorial](tutorial/step-9-package-laravel-debugbar.md)
+#### 3.Debuger using [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar.git)   [Tutorial](doc/tutorial/step-9-package-laravel-debugbar.md)
 
-#### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git) [Tutorial](tutorial/step-10-package-admin.md)
+#### 4.Admin using [sleeping-owl/admin](https://github.com/sleeping-owl/admin.git) [Tutorial](doc/tutorial/step-10-package-admin.md)
 
-#### 5.Api using [Dingo/Api](https://github.com/dingo/api.git)  [Tutorial](https://github.com/followtheart/Laravel-5-Starter/blob/master/tutorial/step-11-package-dingo-api.md)
+#### 5.Api using [Dingo/Api](https://github.com/dingo/api.git)  [Tutorial](https://github.com/followtheart/Laravel-5-Starter/blob/master/doc/tutorial/step-11-package-dingo-api.md)
 
 ## Front End
 * [Bootstrap](https://github.com/twbs/bootstrap.git)
@@ -56,21 +56,21 @@ cd Laravel-5-Starter
 * [Animate.css](https://github.com/daneden/animate.css.git)
 
 
-## Screenshots:
+## Screenshots
 
 #### Home
-![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/home.png)
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/doc/screenshots/home.png)
 #### Login
-![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/login.png)
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/doc/screenshots/login.png)
 #### Pagination
-![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/pagination.png)
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/doc/screenshots/pagination.png)
 #### Password Reset
-![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/reset.png)
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/doc/screenshots/reset.png)
 #### Cache
-![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/screenshots/z-cache.png)
+![](https://raw.githubusercontent.com/followtheart/Laravel-5-Starter/master/doc/screenshots/z-cache.png)
 
 
-## Todo:
+## Todo
 
 1.paypal
 

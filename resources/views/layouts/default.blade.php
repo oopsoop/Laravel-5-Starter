@@ -25,8 +25,8 @@
     <div class="contents">@yield('content')</div>
     <div class="footer">@include('includes.footer')</div>
 
-              @yield('js')
-              </body>
+     @yield('js')
+</body>
 <script type="text/javascript" src="{{asset('js/header.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/footer.js')}}"></script>
 

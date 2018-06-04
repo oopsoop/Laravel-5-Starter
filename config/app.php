@@ -1,6 +1,29 @@
 <?php
 
 return [
+ /*
+    |--------------------------------------------------------------------------
+    | Application Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to place the application's name in a notification or
+    | any other location as required by the application or its packages.
+    |
+    */
+    'name' => env('APP_NAME', 'Laravel'),
+    /*
+    |--------------------------------------------------------------------------
+    | Application Environment
+    |--------------------------------------------------------------------------
+    |
+    | This value determines the "environment" your application is currently
+    | running in. This may determine how you prefer to configure various
+    | services your application utilizes. Set this in your ".env" file.
+    |
+    */
+
+    'env' => env('APP_ENV', 'development'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,6 +77,7 @@ return [
 
     'locale' => 'en',
 
+    'locales'=> ['cn','en'],
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -65,7 +89,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'cn',
 
     /*
     |--------------------------------------------------------------------------
@@ -159,7 +183,7 @@ return [
 
         Barryvdh\Debugbar\ServiceProvider::class,
 
-	DevDojo\Chatter\ChatterServiceProvider::class,
+	//DevDojo\Chatter\ChatterServiceProvider::class,
 
 	TCG\Voyager\VoyagerServiceProvider::class,
     ],

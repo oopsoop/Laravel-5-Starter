@@ -18,6 +18,6 @@ Route::get('/user', function (Request $request) {
 $api = app('api.router');
 $api->version('v1', ['middleware' => 'api.auth'],function ($api) {
     $api->get('home','App\Http\Controllers\AnnouncementController@index');
-    $api->post('auth/register', 'App\Http\Controllers\Auth\AuthController@postRegister');
-    $api->get('auth/login', 'App\Http\Controllers\Auth\AuthController@getLogin');
+    $api->post('auth/register', 'App\Http\Controllers\Auth\RegisterController@postRegister');
+    $api->get('auth/login', 'App\Http\Controllers\Auth\LoginController@getLogin');
 });
